@@ -4,6 +4,7 @@ pipeline {
     stage('verify version') {
       steps {
         //sh 'php --version'
+        println('Hello worlds');
       }
     }
     stage('hello') {
